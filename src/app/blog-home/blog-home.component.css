@@ -1,0 +1,18 @@
+.page-footer{
+    background: rgb(51, 59, 77);
+    color: white;
+  }
+
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 1;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 2;
+    }
+  }
